@@ -4,6 +4,7 @@ export const workoutData = [
     category: "HIIT & Strength",
     source: "Kaleigh Cohen Strength",
     filename: "hiit-strength.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Wide Marching Butt Kicks", timestamp: "00:00:07", seconds: 7 },
       { name: "High Knees (Marching Variation)", timestamp: "00:00:36", seconds: 36 },
@@ -36,6 +37,7 @@ export const workoutData = [
     category: "Upper Body (Back)",
     source: "Heather Robertson",
     filename: "upper-body-back.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Dumbbell Rows", timestamp: "00:00:28", seconds: 28 },
       { name: "Rear Delt Flyes", timestamp: "00:02:06", seconds: 126 },
@@ -53,6 +55,7 @@ export const workoutData = [
     category: "Toned Arms",
     source: "growingannanas",
     filename: "toned-arms.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Arnold Press", timestamp: "00:00:23", seconds: 23 },
       { name: "Hammer Curls", timestamp: "00:01:58", seconds: 118 },
@@ -71,6 +74,7 @@ export const workoutData = [
     category: "Home Legs",
     source: "LeanBeefPatty",
     filename: "home-legs.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Tempo Squats (Round 1)", timestamp: "00:00:20", seconds: 20 },
       { name: "Jumping Lunges (Round 1)", timestamp: "00:02:11", seconds: 131 },
@@ -90,6 +94,7 @@ export const workoutData = [
     category: "Core & Abs",
     source: "LeanBeefPatty",
     filename: "core-abs.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Low Forearm Plank", timestamp: "00:00:02", seconds: 2 },
       { name: "High Plank Hold", timestamp: "00:00:46", seconds: 46 },
@@ -105,6 +110,7 @@ export const workoutData = [
     category: "Cardio",
     source: "Shemaroo Lifestyle",
     filename: "cardio.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Arm Swings", timestamp: "00:00:50", seconds: 50 },
       { name: "Ankle Rotations", timestamp: "00:01:05", seconds: 65 },
@@ -120,6 +126,7 @@ export const workoutData = [
     category: "Total Body",
     source: "Bipasha Basu",
     filename: "total-body.mp4",
+    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     exercises: [
       { name: "Compound Squat to Overhead Press", timestamp: "00:01:15", seconds: 75 },
       { name: "Reverse Lunges with Bicep Curl", timestamp: "00:04:30", seconds: 270 },

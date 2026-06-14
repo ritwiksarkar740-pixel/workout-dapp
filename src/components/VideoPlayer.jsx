@@ -1,7 +1,10 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
 
-function getVideoUrl(filename) {
-  return `/api/videos/${encodeURIComponent(filename)}`;
+function getVideoUrl(workout) {
+  if (workout.videoUrl) {
+    return workout.videoUrl;
+  }
+  return `videos/${encodeURIComponent(workout.filename)}`;
 }
 
 export default function VideoPlayer({ workout, onDurationLoad, videoRef, onSeek }) {
@@ -17,7 +20,7 @@ export default function VideoPlayer({ workout, onDurationLoad, videoRef, onSeek 
   const [loading, setLoading] = useState(true);
   const trackRef = useRef(null);
 
-  const videoUrl = getVideoUrl(workout.filename);
+  const videoUrl = getVideoUrl(workout);
 
   // Reset state when workout changes
   useEffect(() => {
